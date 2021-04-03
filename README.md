@@ -21,6 +21,8 @@ Start nodemon for the application `npm run dev`
 
 Run the tests `npm test`
 
+DATABASE createdb -U dunder_mifflen thoughtfuls
+createdb -U dunder_mifflen thoughtfuls-test
 ## Deploying
 
 When your new project is ready for deployment, add a new Heroku application with `heroku create`. This will make a new git remote called "heroku" and you can then `npm run deploy` which will push to this remote's main branch.
